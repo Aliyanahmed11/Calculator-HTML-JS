@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mobile">
+        <div class="outline">
+            <div class="part">
+                <div class="part1 wh">
+                    <img src="./img/image-removebg-preview (4).png" alt="">
+                </div>
+                <div class="part1 wh">
+                    <img src="./img/image-removebg-preview (6).png" alt="">
+                </div>
+                <div class="part1 wh">
+                    <img src="./img/image-removebg-preview (5).png" alt="">
+                </div>
+            </div>
+
+            <div class="inp">
+                <input class="length" type="text" name="" id="inputField" placeholder="Enter Number" disabled>
+            </div>
+
+            <div class="down">
+                <div class="btndouble grey" onclick="allClear()">AC</div>
+                <!-- <div class="btn"></div> -->
+                <div class="btn grey2" onclick="clearInput()">C</div>
+                <div class="btn type2" onclick="addnum('/')">/</div>
+            </div>
+            <div class="down">
+                <div class="btn type" onclick="addnum(7)">7</div>
+                <div class="btn type" onclick="addnum(8)">8</div>
+                <div class="btn type" onclick="addnum(9)">9</div>
+                <div class="btn type2" onclick="addnum('*')">x</div>
+            </div>
+            <div class="down">
+                <div class="btn type" onclick="addnum(4)">4</div>
+                <div class="btn type" onclick="addnum(5)">5</div>
+                <div class="btn type" onclick="addnum(6)">6</div>
+                <div class="btn type2" onclick="addnum('+')">+</div>
+            </div>
+            <div class="down">
+                <div class="btn type" onclick="addnum(1)">1</div>
+                <div class="btn type" onclick="addnum(2)">2</div>
+                <div class="btn type" onclick="addnum(3)">3</div>
+                <div class="btn type2" onclick="addnum('-')">-</div>
+            </div>
+            <div class="down">
+                <div class="btndouble type" onclick="addnum(0)">0</div>
+                <!-- <div class="btn"></div> -->
+                <div class="btn type" onclick="addnum('.')">.</div>
+                <div class="btn type2" onclick=result()>=</div>
+            </div>
+            <div class="downLine"></div>
+        </div>
+        
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
